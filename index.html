@@ -1002,11 +1002,11 @@
             <label for="destination">Destination:</label>
             <select id="destination" name="destination" required onchange="updatePrice()" style="background-color: black;color:whitesmoke">
                 <option value="" style="background-color: black; color:rgb(9, 183, 236)">Select a destination</option>
-                <option value="paris">Paris, France - $1000</option>
-                <option value="tokyo">Tokyo, Japan - $1200</option>
+                <option value="paris">Paris, France - $10,000</option>
+                <option value="tokyo">Tokyo, Japan - $5,000</option>
                 <option value="newyork">New York, USA - $800</option>
-                <option value="bali">Bali, Indonesia - $900</option>
-                <option value="rome">Rome, Italy - $1100</option>
+                <option value="bali">Bali, Indonesia - $400</option>
+                <option value="rome">Rome, Italy - $200</option>
             </select>
         </div>
         <div class="form-group">
@@ -1155,11 +1155,11 @@
 <script src="https://www.paypal.com/sdk/js?client-id=AQ8PKjHvLb-2BHZ18JMz-nYz-BjuhW5sTetAWdcbI7ZJF4bjZeyN3GJk8qILo5sVskWHjBKJ4jlVPtx1&currency=USD"></script>
 <script>
     const destinationPrices = {
-        paris: 1000,
-        tokyo: 1200,
+        paris: 10000,
+        tokyo: 5000,
         newyork: 800,
-        bali: 900,
-        rome: 1100
+        bali: 400,
+        rome: 200
     };
 
     function updatePrice() {
